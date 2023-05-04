@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+android {
+    compileSdkVersion 29
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "com.baidu.track"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 3
+        versionName "3.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDir 'libs'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.3.0-alpha01'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'junit:junit:4.12'
+    implementation 'com.android.support.test:runner:1.0.2'
+    //switchButton
+    implementation 'com.github.zcweng:switch-button:0.0.3@aar'
+    //json处理
+    implementation 'com.alibaba:fastjson:1.1.54.android'
+    //字体
+    implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    implementation 'com.github.promeg:tinypinyin-lexicons-java-cncity:2.0.0'
+    implementation 'com.github.gabrielemariotti.recyclerview:recyclerview-animators:0.3.0-SNAPSHOT@aar'
+    //pop
+    implementation 'com.lxj:xpopup:2.2.23'
+
+    //ok
+    implementation 'com.squareup.okhttp3:okhttp:3.8.1'
+
+    //banner
+    implementation  'com.youth.banner:banner:2.0.10'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'com.google.android.material:material:1.1.0'
+
+    //tapBarMenu
+    implementation 'com.github.michaldrabik:TapBarMenu:1.0.6'
+    //矢量图库
+    implementation 'net.steamcrafted:materialiconlib:1.1.5'
+    //上拉
+    implementation 'com.github.qingmei2:SlideBottomLayout-Android:1.2.3'
+
+    //Event Bus
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    //banner
+    implementation 'com.bigkoo:convenientbanner:2.1.5'
+    //
+    implementation 'com.github.xiaohaibin:XBanner:1.6.1'   //第三方框架XBanner轮播
+    implementation 'com.github.bumptech.glide:glide:4.9.0'   //Glide请求图片依赖
+
+    //圆形头像
+    api 'de.hdodenhof:circleimageview:3.0.0'
+
+}

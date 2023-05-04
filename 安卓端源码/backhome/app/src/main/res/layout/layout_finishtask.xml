@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#d2553d"
+        android:text="任务提交"
+        android:textColor="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/personal_bg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="老人照片:"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/found_eldly_photo"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:textColor="@color/blue"
+                android:id="@+id/take_elederly_photo_btn"
+                android:background="@drawable/btn_radius_bg_shape"
+                android:layout_margin="10dp"
+                android:text="拍摄"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:textColor="@color/blue"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_radius_bg_shape"
+                android:text="提交"
+                android:id="@+id/up_photo_btn"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

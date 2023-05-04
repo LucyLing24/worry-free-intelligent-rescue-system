@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/my_navigation_0"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="首页" />
+    <item
+        android:id="@+id/my_navigation_1"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="PopupWindow" />
+    <item
+        android:id="@+id/my_navigation_4"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="Android多线程" />
+    <item
+        android:id="@+id/my_navigation_2"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="Android多进程" />
+
+    <item
+        android:id="@+id/my_navigation_3"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="RecycleView系列" />
+    <item
+        android:id="@+id/my_navigation_5"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="嵌套滑动" />
+</menu>

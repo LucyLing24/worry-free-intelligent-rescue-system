@@ -1,0 +1,492 @@
+<resources>
+    <string name="app_name">归家行动</string>
+    <string name="app_title">归家行动</string>
+
+    <!-- 隐私权限申请说明 -->
+    <string name="privacy_permission_desc">开发者使用鹰眼SDK时，需申请以下权限。授权方式由设备系统开发方及开发者应用决定，当最终用户同意向开发者应用授予该权时开启。
+        \n 1、精确定位权限，用于访问GPS数据。
+        \n 2、存储权限，用于写入对象存储BOS数据。
+        \n 3、前台服务权限，用于前台服务通知，Android 8.0之后需动态申请。
+        \n 4、后台定位权限，用于后台定位，Android 10.0 之后需动态申请</string>
+    <!-- 退到后台隐私合规说明 -->
+    <string name="background_privacy_desc">根据相关监管要求，在静默状态下或在后台运行时，如非服务所必需或无合理应用场景，不得收集用户信息。
+        开发者需遵循以上监管要求，仅在必需和合理的应用场景时进行静默状态和后台运行时的信息采集。</string>
+    <string name="colorPrimary">#D53B32</string>
+    <string name="colorPrimaryDark">#ffffff</string>
+    <string name="colorAccent">#D81B60</string>
+    <string name="colorWhite">#ffffff</string>
+    <string name="colorBlack">#333333</string>
+    <string name="colorBlue">#2196f3</string>
+    <string name="colorTransWithe">#ccffffff</string>
+
+    <string name="language_cn">中文</string>
+    <string name="language_en">English</string>
+    <string name="input_phone">请输入手机号</string>
+    <string name="input_pwd">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="please_input_phonenumber">请输入手机号码</string>
+    <string name="please_input_phonenumber_correctly">请输入有效的电话号码</string>
+    <string name="please_input_pwd">请输入密码</string>
+    <string name="pwd_must_less_than_30">请输入小于30位的密码</string>
+    <string name="login_fail">登录失败，请稍后重试</string>
+    <string name="pwd_wrong">密码输入错误，请重试</string>
+    <string name="login_phone_number">手机号登录</string>
+    <string name="press_exit_again">再按一次退出应用</string>
+    <string name="forget_pwd">忘记密码</string>
+    <string name="register">注册账号</string>
+    <string name="in_developing">该功能还在开发中~</string>
+    <string name="mine">我的</string>
+    <string name="wow">发现</string>
+    <string name="friend">朋友</string>
+    <string name="feed">云村</string>
+    <string name="msg">我的消息</string>
+    <string name="mi">听歌识曲</string>
+    <string name="ticket">演出</string>
+    <string name="mall">商城</string>
+    <string name="nearby">附近的人</string>
+    <string name="pocket_music">口袋铃声</string>
+    <string name="my_bill">我的订单</string>
+    <string name="stop_time">定时停止播放</string>
+    <string name="scan_qr">扫一扫</string>
+    <string name="alarm">音乐闹钟</string>
+    <string name="cloud_drive">音乐云盘</string>
+    <string name="butter_data">在线听歌免流量</string>
+    <string name="aboutus">关于Rikka</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="setting">设置</string>
+    <string name="logout">退出</string>
+    <string name="theme">个性换肤</string>
+    <string name="day_recommend">每日推荐</string>
+    <string name="playlist">歌单</string>
+    <string name="rank">排行榜</string>
+    <string name="radio">电台</string>
+    <string name="live">直播</string>
+    <string name="recommend_playlist">推荐歌单</string>
+    <string name="playlist_playground">歌单广场</string>
+    <string name="comment">评论</string>
+    <string name="download">下载</string>
+    <string name="multiselect">多选</string>
+    <string name="playall">播放全部</string>
+    <string name="next_play">下一首播放</string>
+    <string name="collect">收藏到歌单</string>
+    <string name="share">分享</string>
+    <string name="singer">歌手：</string>
+    <string name="album">专辑</string>
+    <string name="watch_video">观看视频</string>
+    <string name="songanme">歌名：</string>
+    <string name="enter_correct_password">请正确输入密码</string>
+    <string name="edit_personinfo">编辑资料</string>
+    <string name="follows">关注：</string>
+    <string name="followeds">粉丝：</string>
+    <string name="user_playlist">音乐</string>
+    <string name="user_dynamics">动态</string>
+    <string name="user_info">个人信息</string>
+    <string name="personal_info">个人信息</string>
+    <string name="level_">等级:</string>
+    <string name="region_">地区:</string>
+    <string name="description">个人描述</string>
+    <string name="create_day">创建日期:</string>
+    <string name="search_history">历史记录</string>
+    <string name="hot_search">热搜榜</string>
+    <string name="search">搜索</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_search_history_clear">清空</string>
+    <string name="should_delete_all_search_history">确定清空全部历史记录?</string>
+    <string name="followin">+ 关注</string>
+    <string name="already_follow">已关注</string>
+    <string name="song">单曲</string>
+    <string name="singer_hot_song">热门单曲</string>
+    <string name="singer_albume">专辑</string>
+    <string name="singer_feed">相关视频</string>
+    <string name="singer_info">歌手信息</string>
+    <string name="birthday">出生年月：</string>
+    <string name="hometown">出生地：</string>
+    <string name="hobby">兴趣爱好：</string>
+    <string name="speciality">特长：</string>
+    <string name="singer_more_detail"><![CDATA[完整歌手介绍 >]]></string>
+    <string name="sim_singer">相似歌手</string>
+    <string name="singer_desc">歌手介绍</string>
+    <string name="about_ta">关于TA</string>
+    <string name="hot_comment">精彩评论</string>
+    <string name="new_comment">最新评论</string>
+    <string name="local_music">本地音乐</string>
+    <string name="recent_play">最近播放</string>
+    <string name="my_radio">我的电台</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="mine_fm">私人FM</string>
+    <string name="smart_play">心动模式</string>
+    <string name="my_album">我的数字专辑</string>
+    <string name="my_album_sub">收藏的专辑</string>
+    <string name="dj_cat">电台分类</string>
+    <string name="dj_rank">电台排行</string>
+    <string name="dj_hq">付费精品</string>
+    <string name="recommend_dj">电台推荐</string>
+    <string name="replace">换一换</string>
+    <string name="playgift_dj">精品推荐</string>
+    <string name="all_paygift">全部精品</string>
+    <string name="cover_dj">创作|翻唱 ></string>
+    <string name="voice_book_dj"><![CDATA[有声书 >]]></string>
+    <string name="broadcast_dj"><![CDATA[广播剧 >]]></string>
+    <string name="motion_dj"><![CDATA[情感频道 >]]></string>
+    <string name="music_story_dj"><![CDATA[音乐故事 >]]></string>
+    <string name="entertainment_dj"><![CDATA[娱乐|影视 >]]></string>
+    <string name="beautiful_dj"><![CDATA[美文读物 >]]></string>
+    <string name="electric_dj"><![CDATA[3D|电子 >]]></string>
+    <string name="anim_dj"><![CDATA[二次元 >]]></string>
+    <string name="show_dj"><![CDATA[脱口秀 >]]></string>
+    <string name="title_activity_radio_cat">RadioCatActivity</string>
+    <string name="cate_dj">电台分类</string>
+    <string name="program">节目</string>
+    <string name="dj_detail">详情</string>
+    <!-- 公共字符串 -->
+    <string name="all_supplement_model">里程补偿方式:</string>
+    <string name="all_coord_type">坐标类型:</string>
+    <string name="all_cancel">取消</string>
+    <string name="all_sure">确定</string>
+    <string name="all_fence_operate">围栏操作</string>
+    <string name="all_fence_monitor_status">围栏监控类型</string>
+
+    <!-- 公共字符串 里程补偿选项 -->
+    <string name="no_supplement">不补充</string>
+    <string name="straight">直线距离</string>
+    <string name="driving">最短驾车路线</string>
+    <string name="riding">最短骑行路线</string>
+    <string name="walking">最短步行路线</string>
+
+    <!-- 公共字符串 坐标类型 -->
+    <string name="bd09ll">百度经纬度坐标</string>
+    <string name="gcj02">国测局加密坐标</string>
+
+    <!-- Activity标题名称-->
+    <string name="base_title">BaseActivity</string>
+    <string name="login_title">LoginActivity</string>
+    <string name="tracing_title">轨迹追踪</string>
+    <string name="tracing_options_title">追踪设置</string>
+    <string name="track_query_title">轨迹查询</string>
+    <string name="track_query_options_title">查询设置</string>
+    <string name="fence_title">地理围栏</string>
+    <string name="bos_title">图片服务</string>
+    <string name="cache_manage_title">缓存管理</string>
+    <string name="fag_title">常见问题</string>
+    <string name="search_title">空间搜索</string>
+    <string name="track_analyse_title">轨迹分析</string>
+
+    <!-- Activity说明 -->
+    <string name="tracing_desc">室内、外高精度连续追踪</string>
+    <string name="track_query_desc">查询被追踪者的历史轨迹</string>
+    <string name="fence_desc">本地、云端围栏双重监控</string>
+    <string name="bos_desc">上传、下载图片，生成水印图片</string>
+    <string name="cache_manage_desc">查询、删除缓存的轨迹信息</string>
+    <string name="search_desc">查询指定区域内的entity</string>
+    <string name="track_analyse_desc">分析历史轨迹</string>
+    <string name="faq_desc">状态码及问题反馈渠道说明</string>
+
+    <!-- TracingOptionActivity 主选项名称 -->
+    <string name="tracing_option_interval">采集、打包频率(单位:秒):</string>
+    <string name="tracing_option_location_mode">定位模式:</string>
+    <string name="tracing_option_object_save">对象存储:</string>
+
+    <!-- 定位模式子选项名称 -->
+    <string name="high_accuracy">高精度定位模式，GPS与网络综合定位</string>
+    <string name="battery_saving">低功耗定位模式，仅使用网络定位</string>
+    <string name="device_sensors">仅使用设备(GPS)定位</string>
+
+    <!-- BOS存储开关子选项 -->
+    <string name="close_bos">关闭</string>
+    <string name="open_bos">开启</string>
+
+    <!-- 采集打包子选项 -->
+    <string name="gather_interval">采集频率:</string>
+    <string name="pack_interval">打包频率:</string>
+
+    <!-- 采集打包默认值 -->
+    <string name="gather_interval_hint">5</string>
+    <string name="pack_interval_hint">30</string>
+
+    <!-- TrackQueryOptionsActivity主选项 -->
+    <string name="track_query_option_time">起止时间:</string>
+    <string name="track_query_option_process">纠偏与数据分析:</string>
+    <string name="track_query_option_radius_threshold">精度过滤(单位:米):</string>
+    <string name="track_query_option_transport_mode">交通方式:</string>
+    <string name="track_query_option_sort_type">排序规则:</string>
+    <string name="track_query_option_lowspeedthreshold">低速阈值需要在纠偏开启的情况下返回:</string>
+
+    <!-- 起止时间子选项 -->
+    <string name="start_time">开始：</string>
+    <string name="end_time">结束：</string>
+
+    <!-- 精度过滤子选项-->
+    <string name="radius_value">过滤值：</string>
+    <string name="radius_hint">0</string>
+
+    <!-- 低速阈值-->
+    <string name="lowspeedthreshold_value">低速阈值：</string>
+    <string name="lowspeedthreshold_parameter">0</string>
+
+    <!-- 纠偏与数据分析子选项 -->
+    <string name="processed">纠偏</string>
+    <string name="denoise">去噪</string>
+    <string name="vacuate">抽稀</string>
+    <string name="mapmatch">绑路</string>
+
+    <!-- 交通方式子选项 -->
+    <string name="driving_mode">驾车</string>
+    <string name="riding_mode">骑行</string>
+    <string name="walking_mode">步行</string>
+
+    <!-- 排序规则子选项 -->
+    <string name="asc">升序</string>
+    <string name="desc">降序</string>
+
+    <!-- Dialog标题 -->
+    <string name="trace_control_title">追踪控制</string>
+    <string name="track_analysis_title">轨迹分析</string>
+    <string name="track_analysis_speeding_title">超速详情</string>
+    <string name="track_analysis_breaking_title">急刹车详情</string>
+    <string name="track_analysis_accel_title">急变速详情</string>
+    <string name="track_analysis_steering_title">急转弯详情</string>
+    <string name="track_analysis_stay_title">停留点详情</string>
+    <string name="fence_setting_title">围栏设置</string>
+    <string name="fence_create_local_circle">创建本地圆形围栏</string>
+    <string name="fence_create_server_circle">创建服务端圆形围栏</string>
+    <string name="fence_create_polyline">创建多段线围栏</string>
+    <string name="fence_create_polygon">创建多边形围栏</string>
+
+    <!-- 追踪控制子选项 -->
+    <string name="start_trace">开启服务</string>
+    <string name="stop_trace">停止服务</string>
+    <string name="start_gather">开启采集</string>
+    <string name="stop_gather">停止采集</string>
+    <string name="walk_line">步行线路</string>
+
+    <!-- 轨迹分析子选项 -->
+    <string name="speeding">超 速</string>
+    <string name="harsh_breaking">急刹车</string>
+    <string name="harsh_accel">急变速</string>
+    <string name="harsh_steering">急转弯</string>
+    <string name="stay_point">停留点</string>
+
+    <!-- 轨迹分析详情子选项 -->
+    <string name="loc_time">定位时间</string>
+    <string name="actual_speed">实际行驶速度：</string>
+    <string name="limit_speed">限定最高时速：</string>
+    <string name="acceleration">实际加速度：</string>
+    <string name="initial_speed_1">加速前时速：</string>
+    <string name="end_speed_1">加速后时速：</string>
+    <string name="initial_speed_2">刹车前时速：</string>
+    <string name="end_speed_2">刹车后时速：</string>
+    <string name="centripetal_acceleration">向心加速度：</string>
+    <string name="turn_type">转向类型：</string>
+    <string name="turn_speed">转向时速：</string>
+    <string name="stay_start_time">开始时间：</string>
+    <string name="stay_end_time">结束时间：</string>
+    <string name="stay_duration">停留时长：</string>
+
+    <!-- 围栏设置子选项 -->
+    <string name="fence_type">围栏类型</string>
+    <string name="fence_shape">围栏形状</string>
+    <string name="fence_name">围栏名称</string>
+    <string name="vertexes_number">顶点数</string>
+
+    <!-- 围栏类型子选项 -->
+    <string name="local_fence">本地(蓝色围栏)</string>
+    <string name="server_fence">服务端(红色围栏)</string>
+
+    <!-- 围栏操作子选项-->
+    <string name="create_fence">创建</string>
+    <string name="fence_list">查询</string>
+    <string name="alarm_info">历史报警信息</string>
+    <string name="update_fence">更新圆形围栏</string>
+    <string name="delete_fence">删除</string>
+    <string name="fence_listmonitored">查询围栏监控的所有entity</string>
+
+    <!-- 围栏形状子选项 -->
+    <string name="circle_fence">圆形</string>
+    <string name="polygon_fence">多边形</string>
+    <string name="polyline_fence">多段线</string>
+
+    <!-- 创建围栏子选项 -->
+    <string name="fence_denoise">去噪参数（单位：米）</string>
+    <string name="fence_radius">半径（单位：米）</string>
+    <string name="fence_offset">偏离距离（单位：米）</string>
+    <string name="alarm_condition">围栏报警条件</string>
+
+    <!-- 创建围栏子选项默认值 -->
+    <string name="denoise_hint">0</string>
+    <string name="fence_radius_hint">1000</string>
+    <string name="offset_hint">200</string>
+    <string name="vertexes_number_hint">3</string>
+    <string name="fence_name_hint">myFence</string>
+
+    <!-- 围栏形状子选项 -->
+    <string name="private_fence">私有围栏</string>
+    <string name="public_fence">公共围栏</string>
+    <!-- 创建提示信息 -->
+    <string name="fence_status_caption">
+        私有围栏：监控一个entity \n公共围栏：监控service下多个entity 或者 监控service下全部entity 示例中公共围栏是监控service下全部entity
+    </string>
+
+    <!-- 创建围栏提示信息 -->
+    <string name="fence_create_caption">
+        1、创建圆形围栏时，请点击地图相应位置作为围栏圆心；\n2、创建多边形或多段线围栏时，请按照设定的顶点数，依次点击地图作为每段折线的起点；\n3、本地围栏暂只支持圆形围栏
+    </string>
+
+    <!-- 查询围栏提示信息-->
+    <string name="fence_operate_caption">圆形围栏只显示中心图标，
+        \n 多边形、多段线围栏只显示起点图标。
+        \n 请点击图标进行围栏操作!
+    </string>
+
+    <!-- 报警通知标题 -->
+    <string name="alarm_push_title">百度鹰眼报警推送</string>
+
+    <!-- BosActivity 选项 -->
+    <string name="put_object">上传对象(图片)</string>
+    <string name="get_object">获取对象(图片)</string>
+    <string name="generatePresigned_url">获取对象(图片)URL</string>
+
+    <!-- 对象（图片）操作提示信息-->
+    <string name="not_granted_album_permission">未获取到读取相册的权限</string>
+    <string name="open_album_failed">打开相册失败</string>
+    <string name="not_select_picture">未获取到图片</string>
+    <string name="save_picture">图片下载成功,正在保存...</string>
+
+    <!-- CacheManageActivity 选项 -->
+    <string name="query_cache_track">查询缓存轨迹信息</string>
+    <string name="clear_cache_track">清除缓存轨迹信息</string>
+    <string name="track_cache_time">查询缓存轨迹的起止时间:</string>
+
+    <string name="no_track_data">未查询到轨迹</string>
+
+    <string name="loc_failed">定位失败</string>
+    <string name="font_type">微软雅黑</string>
+
+    <string name="demo_name_basemap">基本地图功能</string>
+    <string name="demo_title_basemap">基本地图功能--BaseMapDemo</string>
+    <string name="demo_desc_basemap">创建一张百度地图并管理地图的生命周期, 包含个性化地图与普通地图切换功能</string>
+    <string name="demo_name_map_fragment">基于MapFragment的基本地图</string>
+    <string name="demo_title_map_fragment">MapFragment使用--MapFragmentDemo</string>
+    <string name="demo_desc_map_fragment">创建一个基于Fragment的地图框架</string>
+    <string name="demo_name_multimap">多地图展示</string>
+    <string name="demo_title_multimap">多地图展示--MultiMapViewDemo</string>
+    <string name="demo_desc_multimap">在一个Activity中创建多个地图展示，不同城市，不同logo位置</string>
+    <string name="demo_name_layers">图层展示</string>
+    <string name="demo_title_layers">图层展示--LayersDemo</string>
+    <string name="demo_desc_layers">展示普通图、卫星图、交通流量图及百度城市热力图</string>
+    <string name="demo_name_control">地图操作功能</string>
+    <string name="demo_desc_control">介绍地图基本控制方法，对地图单击、长按、双击、截图的事件响应</string>
+    <string name="demo_title_control">地图操作功能--MapControlDemo</string>
+    <string name="demo_name_ui">UI控制功能</string>
+    <string name="demo_title_ui">UI控制功能--UISettingsDemo</string>
+    <string name="demo_desc_ui">介绍开关手势功能和显示隐藏UI控件</string>
+    <string name="demo_name_location">定位图层展示</string>
+    <string name="demo_title_location">定位图层展示--LocationDemo</string>
+    <string name="demo_desc_location">介绍定位图层的基本用法</string>
+    <string name="demo_name_geometry">自定义绘制功能，折线可点击</string>
+    <string name="demo_title_geometry">自定义绘制功能--GeometryDemo</string>
+    <string name="demo_desc_geometry">介绍自定义绘制点、线、多边形、圆等几何图形和文字</string>
+    <string name="demo_name_favorite">点收藏功能</string>
+    <string name="demo_title_favorite">点收藏功能--FavoriteDemo</string>
+    <string name="demo_desc_favorite">介绍如何创建、管理本地点数据</string>
+    <string name="demo_name_radar">周边雷达功能</string>
+    <string name="demo_title_radar">周边雷达功能--RadarDemo</string>
+    <string name="demo_desc_radar">介绍如何使用周边雷达功能上传位置、检索周边的人</string>
+    <string name="demo_name_overlay">覆盖物功能</string>
+    <string name="demo_title_overlay">覆盖物功能--OverlayDemo</string>
+    <string name="demo_desc_overlay">介绍添加覆盖物并响应点击功能和弹出pop功能</string>
+    <string name="demo_name_marker_animation">Marker动画功能</string>
+    <string name="demo_title_marker_animation">Marker动画功能--MarkerAnimationDemo</string>
+    <string name="demo_desc_marker_animation">展示Marker动画:缩放、平移、旋转、透明、组合动画</string>
+    <string name="demo_name_poi">POI搜索功能</string>
+    <string name="demo_title_poi">POI搜索功能--POISearchDemo</string>
+    <string name="demo_desc_poi">介绍关键词查询、suggestion查询和查看餐饮类Place详情页功能</string>
+    <string name="demo_name_route">路径规划功能</string>
+    <string name="demo_title_route">路径规划功能--RoutePlanDemo</string>
+    <string name="demo_title_poinearby">POI附近搜索功能</string>
+    <string name="demo_desc_route">介绍跨城交通、公交、驾车、步行、骑行五种线路规划方法及自定义图标方法</string>
+    <string name="demo_name_geocode">地理编码功能</string>
+    <string name="demo_title_geocode">地理编码功能--GeoCodeDemo</string>
+    <string name="demo_desc_geocode">介绍地址信息与坐标之间的相互转换</string>
+    <string name="demo_name_bus">公交线路查询功能</string>
+    <string name="demo_title_bus">公交线路查询功能--BusLineDemo</string>
+    <string name="demo_desc_bus">介绍查询公交线路功能</string>
+    <string name="demo_name_offline">离线地图功能</string>
+    <string name="demo_title_offline">离线地图功能--OfflineDemo</string>
+    <string name="demo_desc_offline">介绍如何下载和使用离线地图</string>
+    <string name="demo_name_open_baidumap">调启百度地图</string>
+    <string name="demo_title_open_baidumap">调启百度地图--OpenBaiduMap</string>
+    <string name="demo_desc_open_baidumap">介绍如何调启百度地图实现自身业务功能</string>
+    <string name="demo_name_cloud">LBS.云检索功能</string>
+    <string name="demo_title_cloud">LBS.云检索功能--CloudSearchDemo</string>
+    <string name="demo_desc_cloud">介绍如何使用LBS.云检索用户自有数据</string>
+    <string name="demo_name_heatmap">热力图功能</string>
+    <string name="demo_title_heatmap">热力图功能--HeatMapDemo</string>
+    <string name="demo_desc_heatmap">介绍如何以热力图形式显示用户自有数据</string>
+    <string name="demo_name_opengl">OpenGL绘制功能</string>
+    <string name="demo_title_opengl">OpenGL绘制功能--OpenGLDemo</string>
+    <string name="demo_title_cluster">点聚合功能--MarkerClusterDemo</string>
+    <string name="demo_name_tileoverlay">瓦片图功能</string>
+    <string name="demo_desc_cluster">介绍如何实现多个Marker点的点聚合功能</string>
+    <string name="demo_title_tileoverlay">瓦片图功能--TileOverlayDemo</string>
+    <string name="demo_desc_tileoverlay">介绍如何在地图上添加自定义的瓦片图</string>
+    <string name="demo_desc_poinearbysearch">POI附近检索功能</string>
+    <string name="demo_desc_texturemapview">地图由TextureView渲染</string>
+    <string name="demo_desc_districsearch">介绍如何使用行政区域检索，并绘制区域边界</string>
+    <string name="demo_title_districsearch">行政区域检索--DistrictSearchDemo</string>
+    <string name="demo_name_districsearch">行政区域检索</string>
+    <string name="demo_name_indoor">室内图功能</string>
+    <string name="demo_title_indoor">室内图--IndoorMapDemo</string>
+    <string name="demo_desc_indoor">介绍室内图功能，显示室内图及室内路线规划</string>
+    <string name="demo_name_indoorsearch">室内图检索功能</string>
+    <string name="demo_title_indoorsearch">室内图检索--IndoorSearchDemo</string>
+    <string name="demo_desc_indoorsearch">介绍在室内图中进行室内POI检索</string>
+    <string name="demo_track_show">小车轨迹平滑移动</string>
+    <string name="demo_desc_track_show">介绍小车轨迹平滑移动的实现</string>
+
+
+
+    <string name="demo_desc_opengl">介绍如何使用OpenGL绘制在地图中进行绘制</string>
+    <string name="key_error">"请在  DemoApplication.java文件输入正确的授权Key！\r\n申请地址：http://dev.baidu.com/wiki/static/imap/key/"</string>
+    <string name="navi_tip">百度地图SDK支持通过相关的接口，调启百度地图客户端（v5.0以上）导航和Web端百度地图导航。</string>
+    <string name="title_activity_cloud_search_demo">云检索使用介绍</string>
+    <string name="cloud_search_tips"> \t\tLBS.云是百度地图针对LBS开发者推出的平台级服务。结合已有的地图API和SDK服务。通过开放服务端存储和计算能力,提供海量位置数据存储、检索、展示一体化解决方案。\n\n
+      \t\t该服务对开发者免费开放。测试demo里写入了测试的ak。开发者可以使用测试ak查看 LBS.云检索的效果。如果开发者要使用自己的数据，请在申请ak后替换demo中的ak。\n\n
+      \t\t如有任何关于LBS.云服务的问题,诸如如何申请ak、如何存储和检索数据等，请访问百度地图官方“LBS开放平台”。地址：http://lbsyun.baidu.com/  \n
+</string>
+    <string name="panorama_tips">\t\t百度地图SDK为您免费提供全景图的功能。\n
+  \t\t利用接口，可查询、开启并操作更丰富的全景图。\n
+  \t\t以下三个示例分别向您展示了三种调启全景图的入口，您可在实际操作中灵活运用。\n
+  \t\t全景图还提供了Item绘制能力，您可在第三个示例中查看具体使用方法。</string>
+    <string name="panorama_poi_tips"> 首先根据关键词进行POI检索，点击地图上的POI点，根据POI的UID进入全景</string>
+    <string name="panorama_geo_tips">单击地图以选取坐标点</string>
+    <string name="demo_title_share">短串分享功能 --ShareDemo</string>
+    <string name="demo_name_share">短串分享</string>
+    <string name="demo_desc_share">介绍关键词查询、suggestion查询和查看餐饮类Place详情页功能</string>
+    <string name="share_tip">\t\t短串分享是指，用户搜索查询后得到的每一个地理位置结果将会对应一条短串（短链接），用户可以通过短信、邮件或第三方分享组件（如微博、微信等）把短串分享给其他用户从而实现地理位置信息的分享。当其他用户收到分享的短串后，点击短串即可打开手机上的百度地图客户端或者手机浏览器进行查看。\n\n
+            \t\t例如，用户搜索“百度大厦”后通过短信使用短串分享功能把该地点分享给好友，好友点击短信中的短串“http://j.map.baidu.com/XLCrk”后可以调起百度地图客户端或者手机浏览器查看“百度大厦”的地理位置信息。\n\n
+            \t\t目前短串分享功能暂时开放了“POI搜索结果分享”、“反向地理编码结果分享”和"路线规划路线结果分享(包含步行、骑行、驾车、公交)"，日后会开放更多的功能，欢迎广大开发者使用短串分享功能。
+</string>
+    <string name="texturemap_hint">\t\t名称：TextureMapView（实现地图由TextureView
+    渲染）\n\n
+\t\t前提：Android 4.0以上系统，并开启加速功能，才能使用TextureMapView \n\n
+\t\t用法：解决原MapView基于系统GLSurfaceView导致tabhost切换或滚动闪屏、白边等问题</string>
+    <string name="tileoverlay_online_urlhint">放入图片URL，点击在线</string>
+    <string name="tileoverlay_online">在线方式</string>
+    <string name="tileoverlay_offline">离线方式</string>
+    <string name="hide_poiinfo">隐藏地图上的poi标注</string>
+    <string name="title_activity_panorama_activity_main">全景图功能</string>
+    <string name="title_activity_panorama_poi_selector">通过POI进入全景图</string>
+    <string name="title_activity_panorama_geo_selector">通过地理坐标进入全景图</string>
+    <string name="title_activity_panorama_demo">全景图功能</string>
+    <string name="title_activity_clustering_demo">ClusteringDemoActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_marker_cluster_demo">点聚合功能</string>
+    <string name="title_markercluster_desc">\t\t缩小地图，以显示标注物的聚合点 \n
+\t\t放大地图，显示Marker点 \n</string>
+    <string name="title_activity_texture_map_view_demo">TextureMapViewDemo</string>
+    <string name="title_activity_poi_near_by_search_demo">PoiNearBySearchDemo</string>
+    <string name="instruction">当设计的UI与地图部分重叠时，设置地图的padding值,以防止UI遮挡</string>
+
+</resources>

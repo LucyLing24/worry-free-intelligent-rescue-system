@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bannershape"
+    android:layout_margin="10dp"
+    android:paddingBottom="10dp">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/elerdly_hoto"
+        android:src="@drawable/one"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/elerdly_name"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="match_parent"
+
+                android:layout_marginLeft="5dp"
+
+                android:text="老人姓名"
+
+
+                android:textSize="17sp"
+
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+
+            android:weightSum="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="任务等级:"
+
+
+
+                android:layout_marginLeft="5dp"
+                />
+
+
+            <RatingBar
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:numStars="5"
+
+                style="?android:attr/ratingBarStyleSmall"
+
+                android:theme="@style/RatingBar"
+
+                android:layout_marginLeft="10dp"
+
+                android:layout_gravity="center"
+
+                android:id="@+id/tasks_imortance"
+
+                android:stepSize="0.1"/>
+
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+
+                    android:id="@+id/originPrice"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="5dp"
+
+
+
+                    android:editable="false"
+
+                    android:text="团队人数:"
+
+                    android:textColor="@color/bright_foreground_disabled_material_light"
+
+                    android:textSize="14sp" />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:text="17/20"
+
+
+
+                    android:layout_marginLeft="5dp"
+
+
+                    android:textSize="18sp"
+
+                    android:editable="false"
+
+
+                    android:textStyle="bold"
+
+                    android:id="@+id/now_numbers_craws"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                android:text="走失地点:"
+
+                android:layout_marginTop="5dp"
+
+                android:layout_marginLeft="5dp"
+
+
+
+                android:textSize="14sp"/>
+            <TextView
+
+                android:layout_width="0dp"
+
+                android:layout_height="0dp"
+
+                android:text="南通大学附近"
+
+                android:layout_marginTop="5dp"
+
+                android:layout_marginLeft="5dp"
+
+                android:id="@+id/lost_area_tv"
+
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+
+            <Button
+                android:text="查看详细信息"
+                android:textSize="10sp"
+                android:id="@+id/more_elderly_info"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:textColor="@color/blue"
+
+                android:background="@drawable/btn_radius_bg_shape"
+                />
+
+
+            <Button
+                android:id="@+id/rcv_task_btn"
+                android:text="接受任务"
+                android:textSize="10sp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:textColor="@color/blue"
+                android:background="@drawable/btn_radius_bg_shape"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

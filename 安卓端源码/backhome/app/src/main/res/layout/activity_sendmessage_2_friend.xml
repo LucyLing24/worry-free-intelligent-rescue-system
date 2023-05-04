@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#d2553d"
+        android:text="发送信息"
+        android:textColor="@color/blue"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/personal_bg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:text="信息:"
+            />
+
+        <EditText
+            android:id="@+id/found_eldly_photo"
+            android:layout_width="match_parent"
+            android:lines="10"
+            android:gravity="top"
+            android:layout_height="200dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:textColor="@color/blue"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_radius_bg_shape"
+                android:text="发送"
+                android:id="@+id/send_btn"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:textColor="@color/blue"
+                android:id="@+id/send_msg_2_everyone_btn"
+                android:background="@drawable/btn_radius_bg_shape"
+                android:layout_margin="10dp"
+                android:text="发送给所有人"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/personal_bg"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+            <ListView
+                android:layout_width="match_parent"
+                android:id="@+id/send_msg_popel_list"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
